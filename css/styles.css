@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container{
+    width: 980px;
+    height: 450px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+#frame-1 {
+    /* top: 0%; */
+    left: 0%;
+    opacity: 1;
+}
+
+#frame-2 {
+    /* top: 100%; */
+    left: 5%;
+    opacity: 0;
+}
+
+.full{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+}
+
+/* Frame 1 */
+
+#gray-1-1{
+    background-image: url(../img/gray-1-1.png);
+}
+
+#gray-1-2{
+    background-image: url(../img/gray-1-2.png);
+}
+
+#gray-1-3{
+    background-image: url(../img/gray-1-3.png);
+}
+
+#gray-1-4{
+    background-image: url(../img/gray-1-4.png);
+}
+
+#gray-1-5{
+    background-image: url(../img/gray-1-5.png);
+}
+
+#gray-1-6{
+    background-image: url(../img/gray-1-6.png);
+}
+
+
+#blue-1-1{
+    background-image: url(../img/blue-1-1.png);
+}
+
+#blue-1-2{
+    background-image: url(../img/blue-1-2.png);
+}
+
+#blue-1-3{
+    background-image: url(../img/blue-1-3.png);
+}
+
+#blue-1-4{
+    background-image: url(../img/blue-1-4.png);
+}
+
+#blue-1-5{
+    background-image: url(../img/blue-1-5.png);
+}
+
+#blue-1-6{
+    background-image: url(../img/blue-1-6.png);
+}
+
+#blue-1-1-container, #blue-1-2-container, #blue-1-3-container, #blue-1-4-container, #blue-1-5-container, #blue-1-6-container {
+    opacity: 0;
+}
+
+/* Frame 2 */
+
+#gray-2-1{
+    background-image: url(../img/gray-2-1.png);
+}
+
+#gray-2-2{
+    background-image: url(../img/gray-2-2.png);
+}
+
+#gray-2-3{
+    background-image: url(../img/gray-2-3.png);
+}
+
+#gray-2-4{
+    background-image: url(../img/gray-2-4.png);
+}
+
+#gray-2-5{
+    background-image: url(../img/gray-2-5.png);
+}
+
+
+
+#blue-2-1{
+    background-image: url(../img/blue-2-1.png);
+}
+
+#blue-2-2{
+    background-image: url(../img/blue-2-2.png);
+}
+
+#blue-2-3{
+    background-image: url(../img/blue-2-3.png);
+}
+
+#blue-2-4{
+    background-image: url(../img/blue-2-4.png);
+}
+
+#blue-2-5{
+    background-image: url(../img/blue-2-5.png);
+}
+
+
+#blue-2-1-container, #blue-2-2-container, #blue-2-3-container, #blue-2-4-container, #blue-2-5-container, #blue-2-6-container {
+    opacity: 0;
+}
+
+.glow {
+    animation:         GLOW 300ms infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes GLOW {
+    0%   { opacity: 0.9; }
+    50% { opacity: 1; }
+    100%   { opacity: 0.9; }
+}
+
+.flicker-1 {
+    animation: FLICKER-1 10000ms infinite;
+}
+
+.flicker-2 {
+    animation: FLICKER-2 10000ms infinite;
+}
+
+.flicker-3 {
+    animation: FLICKER-3 10000ms infinite;
+}
+
+.flicker-4 {
+    animation: FLICKER-4 10000ms infinite;
+}
+
+.flicker-6 {
+    animation: FLICKER-6 10000ms infinite;
+}
+
+@keyframes FLICKER-1 {
+    0%   { opacity: 1; }
+    20%   { opacity: 1; }
+    21%   { opacity: .5; }
+    22%   { opacity: 1; }
+    30%   { opacity: 1; }
+    31%   { opacity: .5; }
+    32%   { opacity: 1; }
+    100%   { opacity: 1; }
+}
+
+@keyframes FLICKER-2 {
+    0%   { opacity: 1; }
+    73%   { opacity: 1; }
+    74%   { opacity: .5; }
+    75%   { opacity: 1; }
+    100%   { opacity: 1; }
+}
+
+@keyframes FLICKER-3 {
+    0%   { opacity: 1; }
+    55%   { opacity: 1; }
+    56%   { opacity: .5; }
+    57%   { opacity: 1; }
+    100%   { opacity: 1; }
+}
+
+@keyframes FLICKER-4 {
+    0%   { opacity: 1; }
+    15%   { opacity: 1; }
+    16%   { opacity: .5; }
+    17%   { opacity: 1; }
+    90%   { opacity: 1; }
+    91%   { opacity: .5; }
+    92%   { opacity: 1; }
+    100%   { opacity: 1; }
+}
+
+@keyframes FLICKER-6 {
+    0%   { opacity: 1; }
+    33%   { opacity: 1; }
+    34%   { opacity: .5; }
+    35%   { opacity: 1; }
+    40%   { opacity: 1; }
+    41%   { opacity: .5; }
+    42%   { opacity: 1; }
+    88%   { opacity: 1; }
+    89%   { opacity: .5; }
+    90%   { opacity: 1; }
+    100%   { opacity: 1; }
+}
+
